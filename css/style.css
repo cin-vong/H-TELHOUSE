@@ -1,0 +1,297 @@
+/* Header */
+
+header{
+    background-color: #D3CFC6;
+}
+
+#logoHH{
+    width: 5%;
+    margin-left: 160px;
+}
+
+nav ul{
+    display: flex;
+    margin: auto;
+}
+
+nav li{
+   margin: 0 20px;
+}
+
+#carousel-hotel{
+    width: 100%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Main */
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.ligneBlack{
+    display: block;
+    width: 20%;
+    height: 2px;
+    background-color: #2C3E50;
+    margin: 20px auto;
+}
+
+main{
+    background-color : #D3CFC6;
+    padding-top: 100px;
+}
+
+section{
+    margin-right: auto;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 140px;
+    height: 340px;
+
+  }
+
+  /* Centrer les ronds colonnes */
+.container-xxl .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+ 
+  .container-xxl .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+/*Service*/
+
+.featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+
+  /* Avis */
+
+.avis-white{
+    background-color: #ffffff;
+}
+
+
+h2{
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#avis .conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#avis .conteneur .card{
+    max-width: 300px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#avis .conteneur .img-div, #avis .etoile-div{
+    text-align: center;
+}
+
+#avis .contenu-div{
+    padding: 10px 40px;
+}
+
+#avis .etoile-div{
+    color: #c7ab0d;
+    padding-top: 10px;
+}
+
+/*Plan */
+
+.station{
+    margin-left: 40%;
+}
+
+.plan{
+    margin-left: 27%;
+    padding-bottom: 50px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #D3CFC6;
+}
+
+.divers{
+    background-color: rgb(46, 46, 46);
+    margin: auto; 
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none; 
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.fa-brands{
+    color: #ffffff;
+    font-size: 40px;
+    padding: 20px;
+    display: flex;
+}
+
+.bloc-avis{
+    background-color: #ffffff;
+}
+
+h3{
+    position: relative;
+}
+
+.white{
+    color: #ffffff;
+    text-align: center;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+.copyright-white{
+    color: #ffffff;
+    margin-left: -100px;
+}
+
+.float-end{
+    margin-right: auto;
+}
+
+/*Contact*/
+
+#contact form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto 0 auto;
+    
+}
+
+#contact form div{
+    width: 50%;
+    margin: auto;
+}
+
+#contact form label{
+    font-size: 20px;
+}
+
+#contact form input, #contact form textarea{
+    margin: 20px auto;
+    border: 1px solid #080700;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+
+#contact form input{
+    height: 30px;
+}
+
+#contact form button{
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #080700;
+    color: white;
+    font-size: 20px;
+    margin: 15px auto;
+}
+
+#contact form button:hover {
+    background-color: rgb(182, 170, 113);
+}
+
+
+@media screen and (max-width: 720px) {
+    .white{
+        margin-left: 4px;
+    }
+
+    .float-end{
+        margin-right: 25px;
+    }
+
+    #logoHH{
+        width: 20%;
+        margin-left: 150px;
+    }
+
+    .copyright-white{
+        color: #ffffff;
+        margin-left: -10px;
+    }
+
+    .plan{
+        margin-left: 0;
+    }
+    
+    .station{
+        margin-left: 15%;
+    }
+
+    iframe{
+        width: 350px;
+        height: 340px;
+    }
+    
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    .bd-placeholder-img {
+        width: 400px;
+        height: 200px;
+      }
+
+      .float-end{
+        margin-right: -100px;
+    }
+
+    .copyright-white{
+        color: #ffffff;
+        margin-left: -20px;
+    }
+
+    .plan{
+        margin-left: 5%;
+    }
+    
+    .station{
+        margin-left: 32%;
+    }
+    
+
+    }
