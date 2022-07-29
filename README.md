@@ -1,2 +1,2 @@
-# H-TELHOUSE
+# HOTELHOUSE
 Projet d'école 
